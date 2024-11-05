@@ -90,3 +90,102 @@ nav .btn{
 .colour-select #black{
     background: black;
 }
+
+/* Responsividade entre MEUS monitores (notebook e principal) */
+@media(width<=1400px){
+    nav .logo{
+        width: 144px;
+    }
+    nav .btn{
+        padding: 14px 45px;
+        border-radius: 27px;
+    }
+    .content h2{
+        font-size: 31px;
+    }
+    .content h1{
+        font-size: 90px;
+        margin-top: -23px;
+    }
+    .content p{
+        max-width: 300px;
+        font-size: 13px;
+    }
+    .content h3{
+        margin-top: 27px;
+        font-size: 22px;
+    }
+    .colour-select div{
+        width: 45px;
+        height: 45px;
+        margin-right: 9px;
+    }
+    .colour-select{
+        margin-top: 27px;
+    }
+}
+
+/* Responsividade baseada em modelos usados anteriormente */
+@media(width<=900px){
+    nav .btn{
+        padding: 14px 45px;
+        border-radius: 27px;
+    }
+    .content h2{
+        font-size: 31px;
+    }
+    .content h1{
+        font-size: 90px;
+        margin-top: -23px;
+        color: #222;
+    }
+    .content p{
+        max-width: 270px;
+        font-size: 13px;
+    }
+    .content h3{
+        margin-top: 27px;
+        font-size: 22px;
+    }
+    .colour-select div{
+        width: 45px;
+        height: 45px;
+        margin-right: 9px;
+    }
+    .colour-select{
+        margin-top: 27px;
+    }
+}
+
+@media(width<=600px){
+    nav .logo{
+        width: 100px;
+    }
+    nav .btn{
+        padding: 7px 20px;
+        border-radius: 27px;
+    }
+    .content h2{
+        font-size: 31px;
+    }
+    .content h1{
+        font-size: 60px;
+        margin-top: -23px;
+    }
+    .content p{
+        max-width: 180px;
+        font-size: 12px;
+    }
+    .content h3{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .colour-select div{
+        width: 40px;
+        height: 40px;
+        margin-right: 9px;
+    }
+    .colour-select{
+        margin-top: 25px;
+    }
+}
